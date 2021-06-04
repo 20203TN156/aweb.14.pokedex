@@ -10,7 +10,7 @@
 
     <title>Pokedex</title>
     <style>
-        .badge-informacion {
+        .informacion {
             color: #fff;
             background-color: #30a7d7;
         }
@@ -29,13 +29,17 @@
         
         .badge-hielo{
             color: #fff;
+           
             background:#3dc7ef;
+        }
+        td{
+            color: #000000;
         }
     </style>
   </head>
   <body>
     <div class="container">
-        <h1>Pokedex</h1>
+        <p class="text-center h3">Bulbasaur <snap class="text-secondary">N.º001</snap></p>
         <div class="row">
             <div class="col-sm-6 col-md-4 col-lg-5">
                 <div class="text-center">
@@ -54,7 +58,42 @@
                 <div>
                     Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo.<br>
                     <div>
-                       
+                        <table class="table table-borderless informacion rounded">
+                            <thead>
+                              <tr>
+                                <th scope="col">Altura</th>
+                                <th scope="col">Categoría</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td class="h5">0.7 m</th>
+                                <td class="h5">Semilla</td>
+                              </tr>
+                              <thead>
+                                <tr>
+                                  <th scope="col">Peso</th>
+                                  <th scope="col">Habilidad</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td class="h5">6.9 kg</td>
+                                      <td class="h5">Espesura</td>
+                                  </tr>
+                              </tbody>
+                              <thead>
+                                <tr>
+                                  <th scope="col">Sexo</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td><img src="img/genero-masculino.png"><img src="img/genero-femenino.png"></td>
+                                  </tr>
+                              </tbody> 
+                            </tbody>
+                          </table>
                     </div>
                 </div>
                 <div class="row">
